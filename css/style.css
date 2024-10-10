@@ -14,6 +14,10 @@ strong {
   font-weight: 700;
 }
 
+em.italic {
+  font-style: italic;
+}
+
 #main-nav {
   background-color: #9E9E9E;
 }

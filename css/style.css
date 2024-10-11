@@ -2,7 +2,7 @@ body {
   background-image: url("../media/white.jpg");
 }
 
-h1, h2, h4 {
+h1, h2, h3, h4 {
   font-family: 'acmeregular', Cochin, serif;
 }
 
@@ -31,6 +31,10 @@ a {
 a:hover {
   color: #2a9df4;
   text-decoration: underline;
+}
+
+ul {
+  list-style-type: square;
 }
 
 #main-nav {
@@ -99,6 +103,10 @@ header#page-info {
   margin: 30px 50px 0px 10px;
 }
 
+#main-page {
+  padding-left: 1em;
+}
+
 .leftcolumn {   
   float: right;
   width: 75%;
@@ -159,6 +167,13 @@ header#page-info {
   padding: 5px;
   background-color: white;
   margin: 10px 20px 10px 4px;
+}
+
+@media screen and (max-width: 1370px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0em;
+  }
 }
 
 iframe {

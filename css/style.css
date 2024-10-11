@@ -209,6 +209,7 @@ iframe {
   background-color: white;
   width: 360px; 
   height: 250px;
+  border: 0px;
 }
 
 #footer {

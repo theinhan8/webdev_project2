@@ -95,12 +95,40 @@ header#page-info {
   overflow: auto;
 }
 
-.image {
+#selfie ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#selfie li:last-of-type {
+  margin-right: 0;
+}
+
+#selfie a {
+  display: block;
+}
+
+#selfie img {
   float: right;
-  width: 350px;
+  width: 288px;
+  height: 215px;
   padding: 5px;
   background-color: white;
-  margin: 30px 50px 0px 10px;
+  margin: 10px 50px 0px 30px;
+  box-shadow: 2px 2px 2px rgba (0,0,0,.4);
+  -webkit-transition: -webkit-transition .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+}
+
+a:hover img {
+  -webkit-box-shadow: 6px 6px 6px rgba(0,0,0,.3);
+  box-shadow: 6px 6px 6px rgba(0,0,0,.3);
+}
+
+a:hover #img1,a:focus #img1 {
+  -webkit-transform: scale(1.2) rotate(3deg);
+  transform: scale(1.2) rotate(3deg);
 }
 
 #main-page {

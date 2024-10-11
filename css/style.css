@@ -91,27 +91,36 @@ header#page-info {
   overflow: auto;
 }
 
-/*index page*/
-aside {
-  float: right;
-  width: 25%;
-  margin: 0em 2em 0em 0em;
-}
-
 .image {
   float: right;
   width: 350px;
   padding: 5px;
   background-color: white;
-  margin: 10px 20px 10px 20px;
+  margin: 30px 50px 0px 10px;
 }
 
+.leftcolumn {   
+  float: right;
+  width: 75%;
+  padding: 1.2em 1.2em 5em 1.2em;
+}
 
+.rightcolumn {
+  float: left;
+  width: 20%;
+  padding: 1.2em 0em 2em 1.2em;
+}
 
-/*resume page*/
+.card {
+  background-color: #F5F5F5;
+  padding: 1.1em;
+}
 
-
-
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 #fixed-header {
   width: 1487px;
@@ -122,7 +131,7 @@ aside {
   width: 1263px;
   margin: 0px 112px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 1);
-  overflow: auto;
+  height: 850px;
 }
 
 #fixed-footer {
@@ -136,7 +145,6 @@ aside {
   width: 400px;
   padding: 0px 0px 0px 21px;
   text-align: left;
-  padding-bottom: 80px;
 }
 
 .image2 {

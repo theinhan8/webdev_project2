@@ -207,6 +207,8 @@ a:hover #img1,a:focus #img1 {
 iframe {
   padding: 5px;
   background-color: white;
+  width: 360px; 
+  height: 250px;
 }
 
 #footer {
